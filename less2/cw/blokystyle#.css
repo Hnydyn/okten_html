@@ -1,0 +1,55 @@
+#conteiner{
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    background:rgb(195, 248, 133);
+    border: 1px solid black;
+    display: flex;
+    width: 210px;
+    height: 30px;
+    margin-top: 210px;
+
+}
+#menu{
+    background: mediumorchid;
+    border: 1px solid black;
+    display: flex;
+    width:55px;
+    height: 170px;
+    margin: 1px;
+}
+
+.post{
+    background: mediumturquoise;
+    border: 1px solid black;
+    width: 150px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 13px;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+#footer{
+    background: rgb(231, 243, 122);
+    border: 1px solid black;
+    display: flex;
+    width: 210px;
+    height: 30px;
+
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+}
+.twoCont{
+    display: flex;
+}
+.rivno{
+    display: flex;
+    flex-direction: column;
+}
